@@ -31,6 +31,7 @@ func (circle Circle) Area() float64 {
 	return math.Pi * circle.Radius * circle.Radius
 }
 
+// receiver function have method Area and it is associated with Triangle type, return area of triangle with float64 type
 func (t Triangle) Area() float64 {
 	return (t.Base * t.Height) / 2
 }
